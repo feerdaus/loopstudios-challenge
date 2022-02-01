@@ -1,0 +1,14 @@
+.interactive-text {
+  max-width: 541px;
+  max-height: 317px;
+  position: absolute;
+  bottom: 0;
+  right: -5%;
+}
+
+.interactive-p {
+  font-family: Alata;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 445px;
+}

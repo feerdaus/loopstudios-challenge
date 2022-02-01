@@ -1,0 +1,12 @@
+.footer {
+  height: 160px;
+  background-color: black;
+}
+
+.footer-list {
+  width: 380px;
+}
+
+.list:hover {
+  border-bottom: 2px solid white;
+}

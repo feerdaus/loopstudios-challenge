@@ -1,11 +1,18 @@
 import "./App.css";
+import Footer from "./components/common/footer";
+import Header from "./components/common/Header";
 import Hero from "./components/Hero";
+import Leader from "./components/Leader";
+import OurCreations from "./components/OurCreations";
 
 function App() {
   return (
     <>
-      <p className="text-red-900">Hellow world!</p>
+      <Header />
       <Hero />
+      <Leader />
+      <OurCreations />
+      <Footer />
     </>
   );
 }

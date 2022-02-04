@@ -3,11 +3,11 @@ import interactive from "./images/desktop/interactive.jpg";
 
 const Leader = () => {
   return (
-    <section className="relative max-w-screen-lg mx-auto my-28">
+    <section className="relative max-w-screen-lg mx-auto my-28 px-4">
       <div>
         <img src={interactive} alt="interactive" />
       </div>
-      <div className="interactive-text pt-20 pl-20 bg-white">
+      <div className="interactive-text md:pt-16 md:pl-16 pr-8 bg-white mt-12 flex flex-col md:absolute mx-auto text-center md:text-left ">
         <h1 className="uppercase mb-4">The leader in interactive VR</h1>
         <p className="interactive-p">
           Founded in 2011, Loopstudios has been producing world-class virtual

@@ -7,16 +7,31 @@
 }
 
 .title-container {
+  max-width: 600px;
+  max-height: 198px;
   position: absolute;
   left: 130px;
   top: 266px;
 }
 
 .hero-title {
-  max-width: 600px;
-  min-height: 198px;
   font-size: 72px;
   line-height: 70px;
   border: 2px solid white;
   font-family: "Josefin Sans", sans-serif;
+}
+
+@media (max-width: 760px) {
+  .hero-title {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  .title-container {
+    left: 0;
+    transform: translateY(50%);
+    left: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

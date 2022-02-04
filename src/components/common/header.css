@@ -3,5 +3,18 @@
 }
 
 .header-list {
-  width: 380px;
+  min-width: 380px;
+  cursor: pointer;
+}
+
+.header-list-mobile {
+  max-width: 70px;
+  cursor: pointer;
+}
+
+.navIcon {
+  position: absolute;
+  right: 0;
+  padding: 20px 10px;
+  color: white;
 }

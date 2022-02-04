@@ -1,12 +1,26 @@
 .footer {
-  height: 160px;
+  min-height: 160px;
   background-color: black;
 }
+.desktop-mobile-list {
+  cursor: pointer;
+}
 
-.footer-list {
-  width: 380px;
+.mobile-footer-list {
+  width: 70px;
+  cursor: pointer;
 }
 
 .list:hover {
   border-bottom: 2px solid white;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons {
+  margin-left: auto;
+  margin-right: auto;
 }
